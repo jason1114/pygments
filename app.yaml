@@ -1,8 +1,0 @@
-application: pygments
-version: 1-5
-runtime: python
-api_version: 1
-
-handlers:
-- url: /.*
-  script: app.py
