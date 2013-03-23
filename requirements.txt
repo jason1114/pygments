@@ -2,7 +2,5 @@ Flask==0.9
 Jinja2==2.6
 Pygments==1.6
 Werkzeug==0.8.3
-distribute==0.6.35
-git-remote-helpers==0.1.0
-virtualenv==1.9.1
+distribute==0.6.34
 wsgiref==0.1.2
