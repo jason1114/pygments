@@ -25,8 +25,8 @@ puts request.body
 == More Information
 
 This war originally created by Trevor Turk to support http://flowcoder.com and ran on Google App Engine.
-Later, Marco Otte-Witte updated it and moved it to Heroku. If you like, you can fork the code on github
-and create your own Heroku/Google App Engine site, of course. 
+Later, Marco Otte-Witte updated it and moved it to Heroku to support the highlight gem (https://rubygems.org/gems/highlight).
+If you like, you can fork the code on github and create your own Heroku/Google App Engine site, of course. 
 
 Visit http://pygments.org/ for more information about Pygments. 
 Visit http://github.com/richleland/pygments-css for more example CSS files for use with Pygments.
