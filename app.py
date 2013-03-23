@@ -16,7 +16,7 @@ def index():
     if request.method == 'GET':
         return open('README', 'r').read()
     elif request.method == 'POST':
-        return pygmentize(self.request.get("lang"), self.request.get("code"))
+        return pygmentize(request.form("lang"), request.form("code"))
 
 def pygmentize(lang, code):
   lexer     = get_lexer_by_name(lang)
