@@ -1,13 +1,17 @@
 import os
 from flask import Flask
+from flask import request
 
 from pygments import highlight
 from pygments.lexers import get_lexer_by_name
 from pygments.formatters import HtmlFormatter
 
+import logging, sys
+logging.basicConfig(stream=sys.stderr)
+
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'GET':
         return open('README', 'r').read()
